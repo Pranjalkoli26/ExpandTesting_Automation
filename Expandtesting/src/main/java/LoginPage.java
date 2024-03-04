@@ -28,6 +28,10 @@ public class LoginPage {
 
     }
 
-
+ public static By error()
+    {
+        By errorMsg = By.xpath("//div[@class='oxd-alert-content oxd-alert-content--error']");
+        return errorMsg;
+    }
 
 }
