@@ -21,7 +21,7 @@ public class SearchButton extends HomePage
     {
         driver.findElement(SearchanExample).sendKeys(name);
         driver.findElement(searchButton).click();
-        return new RecordFound(driver);
+        return new Examples(driver);
     }
 
 
